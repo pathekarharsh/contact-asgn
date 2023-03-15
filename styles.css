@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    text-align: center;
+}
+
+.container h1{
+    padding: 20px;
+}
+
+input[type=text], input[type=email], input[type=tel], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn{
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    font-weight: bold;
+    color: #222;
+    background-color: #FFBFA9;
+    border: none;
+    border-radius: 4px;
+}
+  
+.btn:hover{
+    background-color: #FFACAC;
+}
+
+#main-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.contactTable{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.contactTable td, th {
+  border: 1px solid black; 
+  padding: 8px 100px; 
+}
